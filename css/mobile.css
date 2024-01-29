@@ -1,6 +1,6 @@
 @media screen and (min-width:428px) and (max-width:767px) {
     .container {
-        max-width: 767px;
+        max-width: 428px;
     }
 .header h1{
    font-size: 50px;
@@ -11,7 +11,6 @@
                 
               }
             .header{
-                min-width:700px;
                 max-width: 767px;
             }
            
