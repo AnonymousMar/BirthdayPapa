@@ -21,6 +21,14 @@ html,
 body {
     height: 100%;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff0f0f;
+    font-family: canada-type-gibson, sans-serif;
+        font-weight: bold;
+}
 html {
     background-image: url(../img/photo_5312258990895386830_y-photoaidcom-darken.jpg);
     background-repeat: no-repeat;
@@ -61,17 +69,13 @@ img {
 body{
     margin: 0;
     padding: 0;
-  /*  background-image: url(../img/photo_5312258990895386830_y-photoaidcom-darken.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;*/
-        font-family: canada-type-gibson, sans-serif;
-        font-weight: 300;
-        font-size: 1.25rem;
-       /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-       overflow-y: scroll;
-       align-items: center;*/
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+     
        
 }
 
@@ -128,6 +132,8 @@ li{
 .container {
     margin-left: auto;
     margin-right: auto;
+    min-width:1158px ;
+    padding: auto;
     
     
 }
@@ -280,6 +286,7 @@ li{
     border: 2px solid #21ff2c;
     border-radius: 10px;
     transition:background-color 0.3s ease;
+    margin-top: 20px;
 }
 .button:hover{
     background-color: #ec7171;
@@ -305,7 +312,6 @@ li{
 }*/
 
 .footer{
-    background-color: var(--while-color);
        /* padding-top: 96px;*/
         padding-bottom: 15px;
         margin-left: auto;
@@ -318,6 +324,9 @@ li{
     margin-right: 120px;
 }
 
+.letter1{
+    padding-top: 15px;
+}
 .letter-image {
     position: absolute;
     left: 50%;
@@ -326,6 +335,7 @@ li{
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     cursor: pointer;
+    text-align: center;
 }
 
 .animated-mail {
@@ -383,10 +393,7 @@ li{
         border-color: transparent transparent transparent #e15349;
         z-index: 2;
     }
-.letter1{
-   padding-top: 50px;
-   padding-bottom: 50px;
-}
+
     .letter {
         left: 20px;
         bottom: 0px;
@@ -618,3 +625,104 @@ li{
         top: 100%;
     }
 }
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 425px;
+    border: 10px solid #9612eb;
+    margin: 60px auto 0 auto;
+    box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    background-color: #e6f0e6;
+}
+
+.card .text-container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.card .text-container #head {
+    font-family: 'Nobile', sans-serif;
+    font-size: 1.5em;
+    margin: 60px auto 60px auto;
+}
+
+.card p, a {
+    font-size: 1.1em;
+    line-height: 1.4;
+    font-family: 'Nobile';
+    color: #331717;
+    font-style: italic;
+    text-align: center;
+    margin: 10px auto 0px auto;
+}
+
+.card .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: -10px 0px 0px -10px;
+    border: 10px solid #9612eb;
+    backface-visibility: hidden;
+    background-color: #9612eb;
+    /* background-image: url($cover-image);
+	 */
+    background-size: contain;
+    transform-style: preserve-3d;
+    transform-origin: 0% 50%;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 0.8s ease-in-out;
+}
+
+.card:hover .front {
+    transform: perspective(800px) rotateY(-170deg);
+    background-color: #41718d;
+}
+
+.card:hover .back {
+    transform: perspective(800px) rotateY(-170deg);
+    box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-color: #d2dcd2;
+}
+
+.card .back {
+    position: absolute;
+    width:300px;
+    height: 425px;
+    border: 10px solid #9612eb;
+    margin: -10px 0px 0px -10px;
+    backface-visibility: visible;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+    transform-style: preserve-3d;
+    transform-origin: 0% 50%;
+    transform: perspective(800px) rotateY(0deg);
+    transition: all 0.8s ease-in-out;
+    background-color: #e6f0e6;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imgset {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -215px;
+}
+
+.imgset img {
+    box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+
+
+
