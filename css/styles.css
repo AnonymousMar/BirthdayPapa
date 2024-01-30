@@ -17,18 +17,22 @@
     --color-quaternary: #96ff50;
     --color-quinary: #ebee52;
 }
+
 html,
 body {
     height: 100%;
 }
-a{
+
+a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #ff0f0f;
     font-family: canada-type-gibson, sans-serif;
-        font-weight: bold;
+    font-weight: bold;
 }
+
 html {
     background-image: url(../img/photo_5312258990895386830_y-photoaidcom-darken.jpg);
     background-repeat: no-repeat;
@@ -39,11 +43,13 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -65,41 +71,45 @@ img {
 
 
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: canada-type-gibson, sans-serif;
     font-weight: 300;
     font-size: 1.25rem;
     height: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-     
-       
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
 }
 
-.header{
+.header {
     background: var(--while-color);
-        border-bottom: 1px solid var(--title2-color);
-        padding-top: 25px;
-        padding-bottom: 25px;
-        width: 100%;
-        
-   /* position: static;*/
+    border-bottom: 1px solid var(--title2-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+
+    /* position: static;*/
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     text-align: center;
-   
+
 }
-.header h1{
+
+.header h1 {
     margin: 0;
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0;
 }
-li{
+
+li {
     display: inline-block;
 }
+
 .text {
 
     text-transform: uppercase;
@@ -125,7 +135,8 @@ li{
         background-position: 200% center;
     }
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
@@ -134,29 +145,32 @@ li{
     margin-right: auto;
     min-width: 1250px;
     padding: auto;
-    
-    
+
+
 }
-.something{
+
+.something {
     display: flex;
-        align-content: center;
-        justify-content: center;
+    align-content: center;
+    justify-content: center;
 }
-.text2{
+
+.text2 {
     padding-top: 40px;
     padding-bottom: 40px;
     text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
-            9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-        font-family: bungee, sans-serif;
-        font-weight: 400;
-        text-transform: uppercase;
-        font-size: calc(2rem + 5vw);
-        text-align: center;
-        margin: 0;
-        color: var(--color-primary);
-        animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
-            letter-spacing: 0.4rem;
+        9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+    font-family: bungee, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc(2rem + 5vw);
+    text-align: center;
+    margin: 0;
+    color: var(--color-primary);
+    animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+    letter-spacing: 0.4rem;
 }
+
 @keyframes shadows {
     0% {
         text-shadow: none;
@@ -234,34 +248,41 @@ li{
         transform: translate(0px, 0px);
     }
 }
+
 .cont {
     padding-bottom: 90px;
     padding-top: 90px;
 }
-.con{
+
+.con {
     text-align: center;
     margin: 20px;
     font-size: 18px;
     line-height: 1.5;
 }
-.line{
+
+.line {
     margin-bottom: 10px;
     font-family: bungee, sans-serif;
     font-weight: 600;
     font-size: calc(2rem);
     color: #fffb09;
-    
+
 }
-.sp{
+
+.sp {
     color: #000;
 }
-.spa{
+
+.spa {
     color: #000000;
 }
-.smile{
-   border-color: #000;
+
+.smile {
+    border-color: #000;
 }
-.img{
+
+.img {
     margin-left: auto;
     margin-right: auto;
     padding-left: 200px;
@@ -269,22 +290,26 @@ li{
     margin-bottom: 20px;
     width: 50%;
 }
-.audio{
+
+.audio {
     font-family: bungee, sans-serif;
-        font-weight: 600;
-        text-align: center;
-        color: #ffffff;
-        padding-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 15px;
 }
-.music{
+
+.music {
     text-align: center;
 }
-.button2{
+
+.button2 {
     text-align: center;
 }
-.button{
+
+.button {
     font-family: bungee, sans-serif;
-        font-weight: 300;
+    font-weight: 300;
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
@@ -292,10 +317,11 @@ li{
     background-color: #feffaa;
     border: 2px solid #21ff2c;
     border-radius: 10px;
-    transition:background-color 0.3s ease;
+    transition: background-color 0.3s ease;
     margin-top: 20px;
 }
-.button:hover{
+
+.button:hover {
     background-color: #ec7171;
 }
 
@@ -319,22 +345,24 @@ li{
 
 }*/
 
-.footer{
-       /* padding-top: 96px;*/
-        padding-bottom: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: canada-type-gibson, sans-serif;
-            font-weight: 300;
-            font-size: 1.25rem;
+.footer {
+    /* padding-top: 96px;*/
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
 }
+
 .div {
     margin-right: 120px;
 }
 
-.letter1{
+.letter1 {
     padding-top: 15px;
 }
+
 .letter-image {
     position: absolute;
     left: 50%;
@@ -432,7 +460,8 @@ li{
             width: 40%;
             background: #cb5a5e;
         }
-        .letter-context-a{
+
+        .letter-context-a {
             font-family: canada-type-gibson, sans-serif;
             font-weight: 300;
             padding-left: 30px;
@@ -440,8 +469,8 @@ li{
             margin-left: 5px;
             height: 10px;
             width: 40%;
-           
-           
+
+
         }
 
         .letter-context {
@@ -450,7 +479,7 @@ li{
             height: 10px;
             width: 20%;
             background: #cb5a5e;
-           
+
         }
 
         .letter-stamp {
@@ -507,17 +536,21 @@ li{
         width: 250px;
     }
 }
-.up{
+
+.up {
     display: flex;
     display: inline-block;
-    
+
 }
-.click{
+
+.click {
     font-family: canada-type-gibson, sans-serif;
-        font-weight: 300;
-        font-size: 1.25rem;
-        background-color: #0c0c0c;;
+    font-weight: 300;
+    font-size: 1.25rem;
+    background-color: #0c0c0c;
+    ;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -667,7 +700,8 @@ li{
     margin: 60px auto 60px auto;
 }
 
-.card p, a {
+.card p,
+a {
     font-size: 1.1em;
     line-height: 1.4;
     font-family: 'Nobile';
@@ -707,7 +741,7 @@ li{
 
 .card .back {
     position: absolute;
-    width:300px;
+    width: 300px;
     height: 425px;
     border: 10px solid #9612eb;
     margin: -10px 0px 0px -10px;
@@ -731,6 +765,3 @@ li{
     box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
     border-radius: 5px;
 }
-
-
-
