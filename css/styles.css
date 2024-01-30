@@ -60,7 +60,6 @@ ul {
 
 img {
     display: block;
-    width: 100%;
     height: auto;
 }
 
@@ -262,7 +261,14 @@ li{
 .smile{
    border-color: #000;
 }
-
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
 .audio{
     font-family: bungee, sans-serif;
         font-weight: 600;
@@ -291,6 +297,9 @@ li{
 }
 .button:hover{
     background-color: #ec7171;
+}
+img{
+    width: 100%;
 }
 
 /*.footer{
